@@ -29,9 +29,8 @@ for (var i = 0; i < squadre.length; i++) {
   squadre[i].puntiFatti = Math.floor(Math.random() * 101);
   squadre[i].falliSubiti = Math.floor(Math.random() * 101);
 }
+// console.log(squadre);
 
 for (var key in squadre) {
   console.log(squadre[key]);
 }
-
-// console.log(squadre);
