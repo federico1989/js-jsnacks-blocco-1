@@ -64,11 +64,10 @@ var zucchine = [
 ]
 
 
+// Calcola quanto pesano tutte le zucchine.
 var pesoTotale = 0;
 
 for(var key in zucchine) {
   pesoTotale += zucchine[key].peso;
 }
-
-// Calcola quanto pesano tutte le zucchine.
 console.log(pesoTotale);
