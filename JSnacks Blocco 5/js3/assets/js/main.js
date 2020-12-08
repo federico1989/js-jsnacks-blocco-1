@@ -69,7 +69,6 @@ var piùQuindici = [];
 for(var key in zucchine) {
   if (zucchine[key].lunghezza < 15) {
     menoQuindici.push(zucchine[key]);
-
   } else{
     piùQuindici.push(zucchine[key]);
   }

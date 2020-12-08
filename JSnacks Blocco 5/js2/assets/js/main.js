@@ -2,8 +2,8 @@
 // argomento e la ritorni girata (es. Ciao -> oaiC)
 var parola = "ciao";
 
-function reverse(parola) {
-  var parolaGirata = parola.split("").reverse().join("");
+function reverse(word) {
+  var parolaGirata = word.split("").reverse().join("");
   return parolaGirata;
 }
 
